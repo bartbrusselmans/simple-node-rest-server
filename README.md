@@ -1,4 +1,4 @@
-# simple-node-server
+# Simple Node.js REST server
 
 # Before starting
 
