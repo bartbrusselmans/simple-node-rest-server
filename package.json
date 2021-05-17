@@ -1,0 +1,31 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "Simple Node server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartbrusselmans/simple-node-server.git"
+  },
+  "author": "Bart Brusselmans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartbrusselmans/simple-node-server/issues"
+  },
+  "homepage": "https://github.com/bartbrusselmans/simple-node-server#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1"
+  }
+}
